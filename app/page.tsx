@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className=" overflow-hidden">
-      <div>Cookie</div>
+      <div>Cookies</div>
     </main>
   );
 }
