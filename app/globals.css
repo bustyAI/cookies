@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 body {
-  background-color: white;
+  background-color: slategray;
   color: white;
 }
+
+/* START Navbar Styles */
+.navbar {
+  @apply flex flex-row justify-between pt-4 pb-4 mx-auto max-w-[1440px];
+}
+
+.navbar-bg {
+  @apply max-w-full bg-purple-800;
+}
+
+.navbar-navigation {
+  @apply flex flex-row space-x-4;
+}
+/* END Navbar Styles */
