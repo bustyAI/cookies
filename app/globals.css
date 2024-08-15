@@ -9,7 +9,7 @@ body {
 
 /* START Navbar Styles */
 .navbar {
-  @apply flex flex-row justify-between pt-4 pb-4 mx-auto max-w-[1440px];
+  @apply flex flex-row justify-between p-4 mx-auto max-w-[1440px];
 }
 
 .navbar-bg {

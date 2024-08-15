@@ -13,19 +13,14 @@ import {
 
 const CookieCarousel = () => {
   return (
-    <Carousel className="w-full max-w-md mx-auto mt-8">
+    <Carousel className="w-full max-w-2xl mx-auto mt-8">
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="flex aspect-video items-center justify-center p-6">
-                  <Image
-                    height={300}
-                    width={400}
-                    src={cookieImage}
-                    alt="cookies"
-                  ></Image>
+                <CardContent className="flex items-center justify-center p-6">
+                  <Image src={cookieImage} alt="cookies"></Image>
                 </CardContent>
               </Card>
             </div>
